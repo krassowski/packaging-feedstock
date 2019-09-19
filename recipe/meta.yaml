@@ -17,12 +17,10 @@ requirements:
   build:
     - python
     - pip
-    - pyparsing
-    - six
 
   run:
     - python
-    - pyparsing
+    - pyparsing >=2.0.2
     - six
 
 test:
