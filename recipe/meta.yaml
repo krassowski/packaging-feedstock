@@ -1,4 +1,4 @@
-{% set version = "20.4" %}
+{% set version = "20.7" %}
 
 package:
   name: packaging
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/packaging/packaging-{{ version }}.tar.gz
-  sha256: 4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8
+  sha256: 05af3bb85d320377db281cf254ab050e1a7ebcbf5410685a9a407e18a1f81236
 
 build:
   number: 0
@@ -14,7 +14,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
