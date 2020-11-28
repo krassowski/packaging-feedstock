@@ -5,11 +5,9 @@ Home: https://github.com/pypa/packaging
 
 Package license: Apache 2.0 or BSD 2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/packaging-feedstock/blob/master/LICENSE.txt)
 
 Summary: Core utilities for Python packages
-
-
 
 Current build status
 ====================
