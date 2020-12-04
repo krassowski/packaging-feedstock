@@ -15,11 +15,12 @@ build:
 
 requirements:
   host:
+    - flit
     - python
     - pip
 
   run:
-    - python
+    - python >=2.7
     - pyparsing >=2.0.2
     - six
 
@@ -29,7 +30,7 @@ test:
 
 about:
   home: https://github.com/pypa/packaging
-  license: Apache 2.0 or BSD 2-Clause
+  license: Apache-2.0
   license_file: LICENSE
   summary: Core utilities for Python packages
 
