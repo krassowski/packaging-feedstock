@@ -1,4 +1,4 @@
-{% set version = "20.9" %}
+{% set version = "21.0" %}
 
 package:
   name: packaging
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/packaging/packaging-{{ version }}.tar.gz
-  sha256: 5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5
+  sha256: 7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7
 
 build:
   number: 0
@@ -15,12 +15,12 @@ build:
 
 requirements:
   host:
-    - flit
-    - python
+    - python >=3.6
+    - setuptools >=40.8
     - pip
 
   run:
-    - python >=2.7
+    - python >=3.6
     - pyparsing >=2.0.2
 
 test:
