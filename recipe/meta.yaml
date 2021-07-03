@@ -15,12 +15,12 @@ build:
 
 requirements:
   host:
-    - flit
-    - python
+    - python >=3.6
+    - setuptools >=40.8
     - pip
 
   run:
-    - python >=2.7
+    - python >=3.6
     - pyparsing >=2.0.2
 
 test:
